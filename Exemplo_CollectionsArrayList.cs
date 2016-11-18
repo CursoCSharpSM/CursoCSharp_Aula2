@@ -89,6 +89,11 @@ class Exemplo_CollectionsArrayList
         meuArrayListAux2 = (ArrayList)meuArrayList.Clone();
         meuArrayList.Add("Um feriado");
         ImprimirArrayList(meuArrayListAux2);
+		
+		//#######################################################################################
+		
+		//Para remover todo o conteúdo de um ArrayList
+        meuArrayList.Clear();
 
         Console.WriteLine();
         Console.WriteLine("Pressione qualquer tecla para continuar...");
