@@ -69,7 +69,7 @@ class Exemplo_CollectionsGenericList
 
         Console.WriteLine();
 
-        //Como remover todos os items do Stack
+        //Como remover todos os items do List
         meuList.Clear();
 
         Console.WriteLine();

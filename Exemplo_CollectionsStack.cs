@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Exemplo_CollectionsStack
 {
-    static void ImprimirQueue(Stack<int> collectionS)
+    static void ImprimirStack(Stack<int> collectionS)
     {
         Console.WriteLine();
         //Para imprimir o conteúdo de um Stack
@@ -36,7 +36,7 @@ class Exemplo_CollectionsStack
 
         //Chamando a função para imprimir o Stack
         Console.WriteLine("Stack original");
-        ImprimirQueue(collectionStack);
+        ImprimirStack(collectionStack);
 
         //Como obter o item no topo da lista
         int strTopoDaPilha = collectionStack.Peek();
@@ -49,7 +49,7 @@ class Exemplo_CollectionsStack
 
         //Chamando a função para imprimir o Stack
         Console.WriteLine("Stack com '" + strTopoDaPilha + "' removido");
-        ImprimirQueue(collectionStack);
+        ImprimirStack(collectionStack);
 
         //Como remover todos os items do Stack
         collectionStack.Clear();

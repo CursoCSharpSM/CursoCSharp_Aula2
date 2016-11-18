@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
     class Exemplo_CollectionsGenericDictionary
     {
-    static void ImprimirList(Dictionary<string, string> collectionD)
+    static void ImprimirDictionary(Dictionary<string, string> collectionD)
     {
         Console.WriteLine();
         //Para imprimir o conteúdo de um Dictionary
@@ -36,22 +36,22 @@ using System.Collections.Generic;
         meuDictionary.Add("12º mês", "Dezembro");
 
         //Para verificar a quantidade de itens do Dictionary
-        Console.WriteLine("O List possui " + meuDictionary.Count + " itens");
+        Console.WriteLine("O Dictionary possui " + meuDictionary.Count + " itens");
 
         Console.WriteLine();
 
         //Chamando a função para imprimir o Dictionary
         Console.WriteLine("Dictionary original");
-        ImprimirList(meuDictionary);
+        ImprimirDictionary(meuDictionary);
 
         //#######################################################################################
 
         //Para remover o elemento com uma Key específica do Dictionary
         meuDictionary.Remove("3º mês");
 
-        //Chamando a função para imprimir o List
+        //Chamando a função para imprimir o Dictionary
         Console.WriteLine("Dictionary com item removido");
-        ImprimirList(meuDictionary);
+        ImprimirDictionary(meuDictionary);
 
         Console.WriteLine();
 
